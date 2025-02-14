@@ -1,0 +1,67 @@
+.task-manager {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.task-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column; /* Stack tasks vertically */
+  gap: 15px; /* Ensure spacing between tasks */
+ border: solid 2px;
+}
+
+/* .task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px; /* Increased padding for better visibility */
+} */
+
+/* .task-item button {
+  background-color: rgb(47, 0, 255);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+} */
+
+.task-item button:hover {
+  opacity: 0.8;
+}
+
+.view-mode {
+  display: flex;
+  justify-content: space-between; /* Ensures proper spacing */
+  align-items: center; /* Aligns text and buttons vertically */
+  gap: 10px; /* Adds space between items */
+}
+
+.view-mode span {
+  flex: 1; /* Allows the text to take up available space */
+}
+
+.view-mode button {
+  padding: 5px 10px;
+  background-color: rgb(47, 0, 255);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.view-mode button:hover {
+  opacity: 0.8;
+}
